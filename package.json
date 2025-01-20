@@ -9,6 +9,7 @@
   "scripts": {
     "start": "node index.js",
     "monitor": "node monitor.js",
+    "monitor-address": "node address-monitor.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {

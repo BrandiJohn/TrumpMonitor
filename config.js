@@ -26,7 +26,7 @@ const TRUMP_CONTRACTS = {
 
 const CONFIG = {
   // Ethereum network settings
-  ETHEREUM_RPC_URL: process.env.ETHEREUM_RPC_URL || 'https://cloudflare-eth.com',
+  ETHEREUM_RPC_URL: process.env.ETHEREUM_RPC_URL || 'https://eth.llamarpc.com',
   
   // Monitoring settings
   POLL_INTERVAL_MS: parseInt(process.env.POLL_INTERVAL_MS) || 5000,
